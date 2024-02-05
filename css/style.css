@@ -126,6 +126,7 @@ img {
 #header.active {
   height: 78px;
   background: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid var(--color-ivory);
 }
 .header {
   width: 100%;
