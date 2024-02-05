@@ -204,7 +204,8 @@ img {
 }
 /* 로고 */
 .header_title {
-  height: 55px;
+  width: 78px;
+  height: 68px;
   background: #515bd4;
 }
 .header_title a {
@@ -975,13 +976,10 @@ img {
   }
   .header {
     padding: 0rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   .header_title {
-    height: 42px;
-    padding: 2px 0;
+    width: 58px;
+    height: 48px;
   }
   .header_icon {
   }
