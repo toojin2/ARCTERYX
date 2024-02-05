@@ -982,6 +982,10 @@ img {
   }
   /* main */
   #main_video {
+    height: 800px;
+  }
+  .main_video_wrap {
+    height: 100%;
   }
   .main_video_play {
     width: 100%;
