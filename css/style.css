@@ -131,7 +131,7 @@ img {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  padding: 0 3.4rem;
+  padding: 0rem 3.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -205,12 +205,13 @@ img {
 /* 로고 */
 .header_title {
   height: 55px;
-  padding: 0.1rem 0;
+  background: #515bd4;
 }
 .header_title a {
   display: block;
   width: 100%;
   height: 100%;
+  border: 1px solid red;
 }
 #birdword {
   display: block;
@@ -222,6 +223,7 @@ img {
   fill: var(--color-primary);
 }
 .header_nav {
+  border: 1px solid blue;
   height: 100%;
 }
 .header_menu {
@@ -972,14 +974,14 @@ img {
   #header {
   }
   .header {
-    padding: 0 1rem;
+    padding: 0rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   .header_title {
     height: 42px;
-    padding: 0.1rem 0;
+    padding: 2px 0;
   }
   .header_icon {
   }
