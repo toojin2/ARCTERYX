@@ -981,12 +981,21 @@ img {
   }
   /* main */
   #main_video {
-    height: 100vh;
   }
   .main_video_play {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
+  }
+  .video_title {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .video_btn {
+    width: 6rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
   }
   /* sports */
   .outdoor_frame {
