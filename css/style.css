@@ -242,6 +242,7 @@ img {
   position: relative;
   color: var(--color-text);
   font-size: 1.2rem;
+  white-space: nowrap;
 }
 .header_menu_item.active {
   padding: 1.5rem;
@@ -894,6 +895,7 @@ img {
   .arc_inr {
     overflow-x: scroll;
   }
+  /* 가로스크롤바 */
   .arc_inr::-webkit-scrollbar {
     width: 300px;
     height: 4px;
@@ -902,7 +904,6 @@ img {
     background: rgb(0, 0, 0);
     border-radius: 10px;
   }
-
   .arc_inr::-webkit-scrollbar-track {
     background: rgba(234, 234, 234, 1);
   }
@@ -918,6 +919,12 @@ img {
 
 /* 테블릿 가로, 테블릿 세로*/
 @media screen and (max-width: 980px) {
+  .header {
+    padding: 0 3.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .header_nav {
     display: none;
   }
