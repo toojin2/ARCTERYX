@@ -204,7 +204,7 @@ img {
 }
 /* 로고 */
 .header_title {
-  height: 100px;
+  height: 98px;
   padding: 1rem 0;
 }
 .header_title a {
@@ -922,8 +922,7 @@ img {
     display: none;
   }
   .header_title {
-    height: 90px;
-    padding: 1rem 0;
+    height: 83px;
   }
   /* 돋보기 */
   .search_bar {
