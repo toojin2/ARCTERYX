@@ -895,6 +895,7 @@ img {
     overflow-x: scroll;
   }
   .arc_inr::-webkit-scrollbar {
+    width: 300px;
     height: 4px;
   }
   .arc_inr::-webkit-scrollbar-thumb {
@@ -966,6 +967,9 @@ img {
   }
   .header {
     padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .header_icon {
   }
