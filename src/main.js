@@ -1,6 +1,26 @@
 "use strict";
 $(function () {
-  /*메뉴펼치는 제이쿼리*/
+  $(".menu_icon").on("click", function () {
+    $("#menu_wrap").stop().fadeIn();
+  });
+  $(".menu_close_btn").on("click", function () {
+    $("#menu_wrap").stop().fadeOut();
+  });
+
+  //mobile menu클릭시 accodion
+  let $menu = $(".menu_inr_middle_title");
+  //상위li클릭시 하위 ul toggle
+  $(".menu_inr_middle_list").on("click", function () {
+    if ($(this).find(".menu_inr_middle_under").is(":hidden")) {
+      $(this).find(".menu_inr_middle_under").slideDown(300),
+        $(this).find(".menu_arrow_btn").addClass("active");
+    } else if ($(this).find(".menu_inr_middle_under").is(":visible")) {
+      $(this).find(".menu_inr_middle_under").slideUp(300),
+        $(this).find(".menu_arrow_btn").removeClass("active");
+    }
+  });
+
+  /*header메뉴펼치는 제이쿼리*/
   $(".header_menu_list").on("mouseover", function () {
     $(this).children(".header_sub_container").stop().fadeIn(200);
   });
