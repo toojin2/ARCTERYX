@@ -558,7 +558,7 @@ img {
 #membership_container,
 #sale_container {
   width: 100%;
-  min-height: 88rem;
+  min-height: 100vh;
   padding: 1rem 0;
   display: flex;
   justify-content: center;
@@ -567,8 +567,8 @@ img {
 }
 .membership_inr_wrap,
 .sale_inr_wrap {
-  width: 63%;
-  height: 55%;
+  width: 70vw;
+  height: 65vh;
   overflow: hidden;
   transition: all 0.3s ease-out;
 }
@@ -581,8 +581,8 @@ img {
 }
 .membership_inr_wrap.active,
 .sale_inr_wrap.active {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   filter: brightness(1.3);
 }
 .membership_inr_wrap {
@@ -614,7 +614,7 @@ img {
 }
 .metadata_txt {
   font-size: 1.7rem;
-  margin: 2rem 0;
+  margin: 0.5rem 0rem 2rem 0;
   cursor: default;
 }
 .banner_btn {
@@ -879,11 +879,7 @@ img {
   .outdoor_frame {
     flex: 1 0 50%;
   }
-  /* 멤버쉽 세일 */
-  #membership_container,
-  #sale_container {
-    min-height: 43rem;
-  }
+
   /* 뉴상품 */
   .product {
     flex: 1 0 32.333%;
@@ -941,11 +937,6 @@ img {
     min-width: 13.2rem;
     padding: 1rem;
     font-size: 1.1rem;
-  }
-  /* 멤버쉽 세일 */
-  #membership_container,
-  #sale_container {
-    min-height: 28rem;
   }
   /* 뉴상품 */
   .product {
@@ -1011,16 +1002,11 @@ img {
     font-size: 1rem;
   }
   /* 멤버쉽 세일 */
-  #membership_container,
-  #sale_container {
-    min-height: 18rem;
-  }
   .metadata_title {
     font-size: 1.8rem;
   }
   .metadata_txt {
     font-size: 1rem;
-    margin: 1rem 0;
   }
   .banner_btn {
     padding: 0.9rem 1.8rem;
