@@ -257,6 +257,7 @@ img {
   padding: 0;
   color: var(--color-text);
   font-size: 1.5rem;
+  border: 1px solid red;
 }
 /* menu 상위UL */
 .menu_inr_middle {
