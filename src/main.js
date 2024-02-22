@@ -1,10 +1,12 @@
 "use strict";
+//mobile menu
 $(function () {
   $(".menu_icon").on("click", function () {
     $("#menu_wrap").stop().fadeIn();
   });
   $(".menu_close_btn").on("click", function () {
     $("#menu_wrap").stop().fadeOut();
+    $(".menu_inr_middle_under").slideUp();
   });
 
   //mobile menu클릭시 accodion
@@ -61,19 +63,6 @@ $(function () {
     );
   });
 
-  // setInterval(fnSlide, 2000);
-  // function fnSlide() {
-  //   $(".outdoor_wrap").animate(
-  //     { "margin-left": "-50px" },
-  //     1000,
-  //     function () {
-  //       $(".outdoor_wrap").css({ "margin-left": "-8px" });
-  //       $(".outdoor_frame:first-child").insertAfter(
-  //         ".outdoor_frame:last-child"
-  //       );
-  //     }
-  //   );
-  // }
   /*버튼 클릭시 왼쪽 이미지 이동*/
   $(".arrow_btn_left").click(function () {
     $(".outdoor_wrap").animate(
