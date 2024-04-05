@@ -36,7 +36,7 @@ $(function () {
   $(".search_close_btn").on("click", function () {
     $(".search_wrap").stop().slideUp(300);
   });
-  /*버튼 클릭시 오른쪽 이미지 이동*/
+  /*sports 슬라이드*/
   $(".arrow_btn_right").click(function () {
     $(".outdoor_wrap").animate(
       { "margin-left": "-50px" },

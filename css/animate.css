@@ -1,0 +1,21 @@
+/* 애니메이션 */
+@keyframes slidUp {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(4rem);
+    opacity: 1;
+  }
+}
+@keyframes slidDown {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-4rem);
+    opacity: 1;
+  }
+}

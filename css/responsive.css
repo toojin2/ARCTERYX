@@ -1,0 +1,169 @@
+/* 반응형 */
+@media screen and (max-width: 1300px) {
+  /* sports */
+  .outdoor_frame {
+    flex: 1 0 50%;
+  }
+
+  /* 뉴상품 */
+  .product {
+    flex: 1 0 32.333%;
+  }
+  /* 아크테릭스 스토리 */
+  #story {
+  }
+  .arc_inr {
+    overflow-x: scroll;
+  }
+  /* 가로스크롤바 */
+  .arc_inr::-webkit-scrollbar {
+    width: 3px;
+    height: 4px;
+  }
+  .arc_inr::-webkit-scrollbar-thumb {
+    background: #a9a9a9;
+    border-radius: 10px;
+  }
+  .arc_inr::-webkit-scrollbar-track {
+    background: rgba(234, 234, 234, 1);
+  }
+  .arc_inr_frame {
+    flex: 1 0 49%;
+  }
+
+  /* footer */
+  #company {
+    margin-top: 5rem;
+  }
+}
+
+/* 테블릿 가로, 테블릿 세로*/
+@media screen and (max-width: 980px) {
+  .header {
+    padding: 0 3.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_nav {
+    display: none;
+  }
+  .menu_icon {
+    display: block;
+  }
+  /* 돋보기 */
+  .search_bar {
+    min-width: 60vw;
+  }
+  /* main */
+  .video_title {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+  .video_btn {
+    min-width: 13.2rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  /* sports */
+  .outdoor_title {
+    font-size: 1.8rem;
+  }
+  /* 뉴상품 */
+  .product {
+    flex: 1 0 49%;
+  }
+  /* footer */
+  .company_inr_frame_icon {
+    margin-right: 1rem;
+  }
+}
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media screen and (max-width: 768px) {
+  /* common */
+  .section {
+    padding: 1.2rem 1rem;
+  }
+  /* header */
+  #header {
+  }
+  .header {
+    padding: 0rem 1rem;
+  }
+  .header_title {
+    width: 58px;
+    height: 48px;
+  }
+  .header_icon {
+  }
+  /* main */
+  .main_video_wrap {
+    height: 100vh;
+  }
+  .main_video_play {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .video_title {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+  .video_txt {
+    display: none;
+  }
+  .video_btn {
+    width: 6rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+  /* sports */
+  .outdoor_frame {
+    flex: 1 0 100%;
+  }
+
+  .outdoor_metadata_btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  /* 멤버쉽 세일 */
+  .metadata_title {
+    font-size: 1.8rem;
+  }
+  .metadata_txt {
+    font-size: 1.2rem;
+  }
+  .banner_btn {
+    padding: 1.1rem 2.6rem;
+    background: var(--color-text);
+    font-size: 1.1rem;
+    transition: all 0.3s;
+  }
+
+  /* 뉴상품 */
+  .product {
+    flex: 1 0 100%;
+  }
+  .product_cart_btn {
+    height: 70%;
+    font-size: 1.3rem;
+  }
+  /* 아크테릭스 스토리 */
+  #story {
+  }
+  .arc_inr_frame {
+    flex: 1 0 100%;
+  }
+  .arc_inr {
+    padding: 0;
+    margin: 3rem 0 0 0;
+  }
+  /* footer */
+  .company_container {
+    padding: 0;
+  }
+  .company_inr_container {
+    flex-direction: column;
+  }
+}
