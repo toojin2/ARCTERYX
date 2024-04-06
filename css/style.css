@@ -518,6 +518,7 @@ img {
   padding: 3.4rem 8rem 8rem 8rem;
 }
 .sport_lnb {
+  max-width: 1300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);

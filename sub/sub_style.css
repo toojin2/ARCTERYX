@@ -424,6 +424,7 @@ img {
   display: none;
 }
 /* 펼쳐지는 메뉴 */
+/* 펼쳐지는 메뉴 */
 .header_sub_container {
   position: absolute;
   left: 0;
@@ -446,14 +447,13 @@ img {
 
 /* 의류, 가방, 신발, 악새사리, 스포츠 상위UL */
 .header_sub_menu {
+  margin: auto;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1%;
+  justify-content: center;
+  gap: 3%;
 }
 .header_sub_menu_list {
-  flex: 1 0 8%;
   display: flex;
   flex-direction: column;
 }
@@ -473,10 +473,10 @@ img {
   font-size: 0.8rem;
 }
 .header_sub_menu_list_img {
+  max-height: 200px;
   position: relative;
   cursor: pointer;
-  width: 100%;
-  height: 100%;
+  aspect-ratio: 1 / 1;
 }
 .header_sub_menu_list_img:before {
   content: "";
@@ -488,7 +488,10 @@ img {
   background: var(--color-accent);
 }
 .header_sub_menu_list_img > img {
+  display: block;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .header_sub_menu_list_img > img:hover {
   transform: perspective(1px) scale3d(1.03, 1.03, 1);
@@ -510,6 +513,18 @@ img {
 .story_sub_menu__img:hover {
   cursor: pointer;
   transform: perspective(1px) scale3d(1.03, 1.03, 1);
+}
+/* sport gnb */
+.sport_gnb {
+  padding: 3.4rem 8rem 8rem 8rem;
+}
+.sport_lnb {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.sport_lnb li {
 }
 /* main */
 #main {
