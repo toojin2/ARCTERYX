@@ -945,7 +945,27 @@ img {
   font-size: 0.85rem;
   text-align: center;
 }
-
+/* 애니메이션 */
+@keyframes slidUp {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(4rem);
+    opacity: 1;
+  }
+}
+@keyframes slidDown {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-4rem);
+    opacity: 1;
+  }
+}
 /* 반응형 */
 @media screen and (max-width: 1200px) {
   .womens_prodect {
@@ -957,10 +977,15 @@ img {
   }
 }
 /* 테블릿 가로, 테블릿 세로*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1124px) {
   .header_nav {
     display: none;
   }
+  .menu_icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 980px) {
   .header_title {
     height: 90px;
     padding: 1rem 0;
